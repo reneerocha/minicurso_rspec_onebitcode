@@ -1,8 +1,8 @@
 class Hero
-    attr_accessor :weapon
-
+    attr_accessor :weapon, :hp
     def initialize
-        @weapon = 'sword'        
+        @weapon = 'sword'
+        @hp = 1100        
     end
     
 end
